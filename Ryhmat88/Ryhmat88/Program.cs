@@ -10,6 +10,9 @@ namespace Ryhmat88
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("iegjeirughre");
+            Console.WriteLine("iehfuerhgerg");
+            Console.WriteLine("ijreiughrughreug");
         }
     }
 }
