@@ -10,9 +10,19 @@ namespace Ryhmat88
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("iegjeirughre");
-            Console.WriteLine("iehfuerhgerg");
-            Console.WriteLine("ijreiughrughreug");
+
+            //Ülesanne 3:
+            Console.WriteLine("3. 2)");
+            Console.WriteLine("Kahe listi suurim number on:");
+            Console.WriteLine(YlesanneKolm.suurim);
+
+            Console.WriteLine("3. 3)");
+            Console.WriteLine("Kahe listi väikseim number on:");
+            Console.WriteLine(YlesanneKolm.väikseim);
+
+            Console.WriteLine("3. 5)");
+            Console.WriteLine("Kahe list numbrite keskmine koos on:");
+            Console.WriteLine(YlesanneKolm.Mkeskmine);
         }
     }
 }
