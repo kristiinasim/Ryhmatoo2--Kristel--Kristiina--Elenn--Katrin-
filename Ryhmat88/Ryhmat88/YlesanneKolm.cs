@@ -19,5 +19,9 @@ namespace Ryhmat88
         public static int suurim = KaksArrayd.Max();
         public static int väikseim = KaksArrayd.Min();
         public static double Mkeskmine = KaksArrayd.Average();
+
+        public static int keskmine1 = Array1.Max();
+        public static int keskmine2 = Array2.Max();
     }
+
 }
