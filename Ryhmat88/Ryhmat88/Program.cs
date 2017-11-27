@@ -24,16 +24,14 @@ namespace Ryhmat88
 
             }
             //4) Leidge mõlemal listil eraldi numbrite keskmine
-           
-             //var list = new List<string> { "1", "2", "36", "3", "56", "2" };  
-             //var list2 = new List<string> { "11", "2", "36", "73", "56", "2" };
 
-            double result = (from x in list select x.Length).Average();
-            Console.WriteLine(result);
 
-            double result2 = (from x in list2 select x.Length).Average();
-            Console.WriteLine(result2);
-            Console.ReadLine();
+            Console.WriteLine("Esimese listi keskmine on: ");
+            Console.WriteLine(YlesanneKolm.keskmine1);
+
+            Console.WriteLine("Teise listi keskmine on: ");
+            Console.WriteLine(YlesanneKolm.keskmine2);
+            
 
 
             //Ülesanne 3:
