@@ -12,18 +12,21 @@ namespace Ryhmat88
     {
         static void Main(string[] args)
         {
-            //Ülesanne-2-
-            {
-                Console.WriteLine("Sõnade arv failis on {0}", yl2.Alfa());
-                Console.ReadLine();
-            }
-       
+            //------------------------Ülesanne-3-------------------------
+
+            //2. Ülesanne 1) punkt:
+            Console.WriteLine("");
+            Console.WriteLine("=======");
+            Console.WriteLine("2. 1)");
+            Console.WriteLine("=======");
+            Console.WriteLine("Sõnade arv tekstis on {0}", yl2.Alfa() + ".");
 
 
-    //------------------------Ülesanne-3-------------------------
 
-    //3. Ülesanne 1) punkt:
-    Console.WriteLine("");
+            //------------------------Ülesanne-3-------------------------
+
+            //3. Ülesanne 1) punkt:
+            Console.WriteLine("");
             Console.WriteLine("=======");
             Console.WriteLine("3. 1)");
             Console.WriteLine("=======");

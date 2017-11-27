@@ -8,35 +8,27 @@ using System.Threading.Tasks;
 namespace Ryhmat88
 {
     class yl2
-    
-        {
+    {
+        string inFileName = null;
 
-            string inFileName = null;
-
-        static string f = @"C:\Users\Krizzie\Documents\GitHub\Ryhmatoo2--Kristel--Kristiina--Elenn--Katrin-\kttekst.txt";
-
+        //TULEB PIDEVALT ERINEVATES ARVUTITES MUUTA :I
+        static string f = @"D:\#Games and Apps\GITHUB\Ryhmatoo2--Kristel--Kristiina--Elenn--Katrin-\kttekst.txt";
 
         static StreamReader sr = new StreamReader(f);
-            public static int Alfa()
+        public static int Alfa()
+        {
+            int counter = 0;
+            string delim = " ";
+            string[] fields = null;
+
+            while (!sr.EndOfStream)
             {
-
-                int counter = 0;
-                string delim = " ";
-                string[] fields = null;
-
-
-
-                while (!sr.EndOfStream)
-                {
-                    string line = sr.ReadLine();
-                    line.Trim();
-                    fields = line.Split(delim.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-                    counter += fields.Length;
-
-                }
-                return counter;
-
+                string line = sr.ReadLine();
+                line.Trim();
+                fields = line.Split(delim.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+                counter += fields.Length;
             }
-
+            return counter;
         }
     }
+}
