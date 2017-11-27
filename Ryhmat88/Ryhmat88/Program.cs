@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
+using System.Text.RegularExpressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,12 +12,18 @@ namespace Ryhmat88
     {
         static void Main(string[] args)
         {
+            //Ülesanne-2-
+            {
+                Console.WriteLine("Sõnade arv failis on {0}", yl2.Alfa());
+                Console.ReadLine();
+            }
+       
 
 
-            //------------------------Ülesanne-3-------------------------
+    //------------------------Ülesanne-3-------------------------
 
-            //3. Ülesanne 1) punkt:
-            Console.WriteLine("");
+    //3. Ülesanne 1) punkt:
+    Console.WriteLine("");
             Console.WriteLine("=======");
             Console.WriteLine("3. 1)");
             Console.WriteLine("=======");
