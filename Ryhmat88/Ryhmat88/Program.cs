@@ -11,43 +11,60 @@ namespace Ryhmat88
         static void Main(string[] args)
         {
 
-            // 1) Kas listides leidub sarnaseid elemente (ühisosa)
-             //var list = new List<string>{ "1", "2", "36", "3", "56", "2" };
-            var q = from s in list
-                    group s by s into g
-                    where g.Count() > 1
-                    select g.First();
 
-            foreach (var item in q)
+            //------------------------Ülesanne-3-------------------------
+
+            //3. Ülesanne 1) punkt:
+            Console.WriteLine("");
+            Console.WriteLine("=======");
+            Console.WriteLine("3. 1)");
+            Console.WriteLine("=======");
+            Console.WriteLine("Kahe listi ühisosad on:");
+            foreach (int element in YlesanneKolm.Array1)
             {
-                Console.WriteLine(item);
+                foreach (int eliment in YlesanneKolm.Array2)
+                {
+                    if (eliment == element)
+                    {
+                        Console.WriteLine("---> " + eliment + " <---");
+                    }
+                }
 
             }
-            //4) Leidge mõlemal listil eraldi numbrite keskmine
-           
-             //var list = new List<string> { "1", "2", "36", "3", "56", "2" };  
-             //var list2 = new List<string> { "11", "2", "36", "73", "56", "2" };
 
-            double result = (from x in list select x.Length).Average();
-            Console.WriteLine(result);
-
-            double result2 = (from x in list2 select x.Length).Average();
-            Console.WriteLine(result2);
-            Console.ReadLine();
-
-
-            //Ülesanne 3:
+            //3. Ülesanne 2) punkt:
+            Console.WriteLine("");
+            Console.WriteLine("=======");
             Console.WriteLine("3. 2)");
+            Console.WriteLine("=======");
             Console.WriteLine("Kahe listi suurim number on:");
-            Console.WriteLine(YlesanneKolm.suurim);
+            Console.WriteLine("---> " + YlesanneKolm.suurim + " <---");
 
+            //3. Ülesanne 3) punkt:
+            Console.WriteLine("");
+            Console.WriteLine("=======");
             Console.WriteLine("3. 3)");
+            Console.WriteLine("=======");
             Console.WriteLine("Kahe listi väikseim number on:");
-            Console.WriteLine(YlesanneKolm.väikseim);
+            Console.WriteLine("---> " + YlesanneKolm.väikseim + " <---");
 
+            //3. Ülesanne 4) punkt:
+            Console.WriteLine("");
+            Console.WriteLine("=======");
+            Console.WriteLine("3. 4)");
+            Console.WriteLine("=======");
+            Console.WriteLine("Esimese listi keskmine on: ");
+            Console.WriteLine("---> " + YlesanneKolm.keskmine1 + " <---");
+            Console.WriteLine("Teise listi keskmine on: ");
+            Console.WriteLine("---> " + YlesanneKolm.keskmine2 + " <---");
+
+            //3. Ülesanne 5) punkt:
+            Console.WriteLine("");
+            Console.WriteLine("=======");
             Console.WriteLine("3. 5)");
-            Console.WriteLine("Kahe list numbrite keskmine koos on:");
-            Console.WriteLine(YlesanneKolm.Mkeskmine);
+            Console.WriteLine("=======");
+            Console.WriteLine("Kahe listi numbrite keskmine koos on:");
+            Console.WriteLine("---> " + YlesanneKolm.Mkeskmine + " <---");
 
         }
     }
