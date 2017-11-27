@@ -15,13 +15,12 @@ namespace Ryhmat88
         //Liidan listid kokku:
         public static int[] KaksArrayd = Array1.Concat(Array2).ToArray();
 
-        //Arvutan maksimumi, miinimumi ja keskmise kahe listi peale kokku:
+        //Teen maksimumi, miinimumi ja keskmise arvutused:
         public static int suurim = KaksArrayd.Max();
         public static int väikseim = KaksArrayd.Min();
+        public static double keskmine1 = Array1.Average();
+        public static double keskmine2 = Array2.Average();
         public static double Mkeskmine = KaksArrayd.Average();
-
-        public static int keskmine1 = Array1.Max();
-        public static int keskmine2 = Array2.Max();
     }
 
 }
