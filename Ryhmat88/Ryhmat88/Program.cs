@@ -14,6 +14,10 @@ namespace Ryhmat88
         {
 
             //------------------------Ülesanne-1-------------------------
+            Console.WriteLine("");
+            Console.WriteLine("=======");
+            Console.WriteLine("1. ");
+            Console.WriteLine("=======");
             Console.WriteLine("Sisestage esimene arv");
 
             int arv1 = Convert.ToInt32(Console.ReadLine());
