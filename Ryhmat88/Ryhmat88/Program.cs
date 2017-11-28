@@ -20,6 +20,7 @@ namespace Ryhmat88
             Console.WriteLine("2. 1)");
             Console.WriteLine("=======");
             Console.WriteLine("Sõnade arv tekstis on {0}", yl2.Alfa() + ".");
+            //Console.WriteLine("gjergrgherg {0}", yl2.Beta());
 
 
 

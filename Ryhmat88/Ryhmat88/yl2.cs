@@ -17,6 +17,7 @@ namespace Ryhmat88
         static StreamReader sr = new StreamReader(f);
         public static int Alfa()
         {
+            int num_smaller = 0;
             int counter = 0;
             string delim = " ";
             string[] fields = null;
@@ -29,6 +30,28 @@ namespace Ryhmat88
                 counter += fields.Length;
             }
             return counter;
+        }
+
+        //public static int Beta()
+        //{
+        //    int num_smaller = 0;
+        //    string delim = " ";
+        //    string[] fields = null;
+
+        //    while (!sr.EndOfStream)
+        //    {
+        //        string line = sr.ReadLine();
+        //        line.Trim();
+        //        fields = line.Split(delim.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+        //        foreach (string smaller in fields)
+        //        {
+        //            if (smaller.Length < 5)
+        //            {
+        //                num_smaller += 1;
+        //            }
+        //        }
+        //    }
+        //    return num_smaller;
         }
     }
 }
