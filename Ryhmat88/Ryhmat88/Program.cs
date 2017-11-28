@@ -12,6 +12,19 @@ namespace Ryhmat88
     {
         static void Main(string[] args)
         {
+
+            //Ülesanne 1
+            Console.WriteLine("Sisestage esimene arv");
+
+            int arv1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Sisestage teine arv");
+
+            int arv2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Sellesse vahemikku jäävad paarisarvud on:");
+            int nii = ülesanne1.Ajunuss(arv1, arv2);
+
+            Console.WriteLine(nii);
             //------------------------Ülesanne-3-------------------------
 
             //2. Ülesanne 1) punkt:
