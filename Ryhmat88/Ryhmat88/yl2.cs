@@ -17,7 +17,7 @@ namespace Ryhmat88
         static StreamReader sr = new StreamReader(f);
         public static int Alfa()
         {
-            int num_smaller = 0;
+            //int num_smaller = 0;
             int counter = 0;
             string delim = " ";
             string[] fields = null;

@@ -45,6 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="yl2.cs" />
     <Compile Include="YlesanneKolm.cs" />
+    <Compile Include="Ülesanne1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -13,7 +13,7 @@ namespace Ryhmat88
         static void Main(string[] args)
         {
 
-            //Ülesanne 1
+            //------------------------Ülesanne-1-------------------------
             Console.WriteLine("Sisestage esimene arv");
 
             int arv1 = Convert.ToInt32(Console.ReadLine());
@@ -25,7 +25,7 @@ namespace Ryhmat88
             int nii = ülesanne1.Ajunuss(arv1, arv2);
 
             Console.WriteLine(nii);
-            //------------------------Ülesanne-3-------------------------
+            //------------------------Ülesanne-2-------------------------
 
             //2. Ülesanne 1) punkt:
             Console.WriteLine("");
